@@ -66,6 +66,10 @@ public class MarshThings {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TEST_ITEM);
         }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.PINE_PLANKS);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
