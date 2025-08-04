@@ -1,10 +1,10 @@
-package net.pixelmarshal.marshthings.item;
+package net.pixelmarshal.marshsrandomthings.item;
 
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.pixelmarshal.marshthings.MarshThings;
+import net.pixelmarshal.marshsrandomthings.MarshThings;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MarshThings.MOD_ID);

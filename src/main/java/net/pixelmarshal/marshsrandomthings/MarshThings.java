@@ -1,6 +1,7 @@
-package net.pixelmarshal.marshthings;
+package net.pixelmarshal.marshsrandomthings;
 
-import net.pixelmarshal.marshthings.item.ModItems;
+import net.pixelmarshal.marshsrandomthings.block.ModBlocks;
+import net.pixelmarshal.marshsrandomthings.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -38,6 +39,7 @@ public class MarshThings {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

@@ -1,4 +1,4 @@
-package net.pixelmarshal.marshthings;
+package net.pixelmarshal.marshsrandomthings;
 
 import java.util.List;
 
