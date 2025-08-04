@@ -9,7 +9,7 @@ import net.pixelmarshal.marshthings.MarshThings;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MarshThings.MOD_ID);
 
-    public static final DeferredItem<Item> TESTITEM = ITEMS.registerItem("testitem",
+    public static final DeferredItem<Item> TEST_ITEM = ITEMS.registerItem("test_item",
             Item::new,
             new Item.Properties());
 

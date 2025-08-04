@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "marshsrandomthings:item/testitem"
+    "layer0": "marshsrandomthings:item/test_item"
   }
 }
