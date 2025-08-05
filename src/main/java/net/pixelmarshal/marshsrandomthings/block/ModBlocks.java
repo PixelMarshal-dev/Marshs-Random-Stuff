@@ -25,15 +25,15 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASS)
                     .sound(SoundType.WOOD));
 
-    private static <B extends Block> DeferredBlock<B> registerBlock(String name, Function<BlockBehaviour.Properties, ? extends B> blockFactory,
-                                                                    BlockBehaviour.Properties blockProperties) {
+    private static <B extends Block> DeferredBlock<B> registerBlock(String name, Function<BlockBehaviour.Properties, ? extends B>
+            blockFactory, BlockBehaviour.Properties blockProperties) {
         DeferredBlock<B> block = BLOCKS.registerBlock(name, blockFactory, blockProperties);
         registerBlockItem(name, block);
         return block;
     }
 
     private static <B extends Block> void registerBlockItem(String name, DeferredBlock<B> block) {
-        ModItems.ITEMS.registerSimpleBlockItem(name,block);
+        ModItems.ITEMS.registerSimpleBlockItem(name, block);
     }
 
     public static void register(IEventBus eventBus) {
