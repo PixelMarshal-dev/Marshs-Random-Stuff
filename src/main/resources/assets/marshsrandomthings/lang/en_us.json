@@ -1,5 +1,7 @@
 {
   "item.marshsrandomthings.test_item": "Test Item",
 
-  "block.marshsrandomthings.pine_planks": "Pine Planks"
+  "block.marshsrandomthings.pine_planks": "Pine Planks",
+
+  "creativetab.marshsrandomthings.marsh_things": "Marsh's Random Things"
 }
